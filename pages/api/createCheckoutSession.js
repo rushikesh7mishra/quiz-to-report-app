@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   try {
     const baseUrl = process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
-      : req.headers.origin;
+      : process.env.NEXT_PUBLIC_BASE_URL;
 
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
