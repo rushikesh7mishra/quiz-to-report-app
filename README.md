@@ -54,8 +54,8 @@ This is a modern full-stack web application built using **Next.js** that allows 
 
 ### 1. Clone the repo
 
-git clone https://github.com/your-username/quiz-report-app.git
-cd quiz-report-app
+git clone https://github.com/rushikesh7mishra/quiz-to-report-app
+cd quiz-to-report-app
 
 npm install
 
